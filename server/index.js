@@ -21,7 +21,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://next-chat-client-side-bzwg3n715-bxbdev.vercel.app",
+        origin: "http://localhost:3000",
         methods: ["GET", "POST"]
     }
 })
