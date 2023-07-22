@@ -1,12 +1,12 @@
 {
-  "name": "react-socket.io",
-  "version": "1.0.0",
+  "name": "next-socket.io",
+  "version": "0.1.0",
   "description": "",
   "main": "/client/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["socket.io", "websocket", "react", "next.js", "tailwind", "chatroom"],
+  "author": "Fiona Ye",
+  "license": "MIT"
 }
