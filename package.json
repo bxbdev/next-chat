@@ -6,7 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["socket.io", "websocket", "react", "next.js", "tailwind", "chatroom"],
+  "keywords": [
+    "socket.io",
+    "websocket",
+    "react",
+    "next.js",
+    "tailwind",
+    "chatroom"
+  ],
   "author": "Fiona Ye",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "socket.io-client": "^4.7.1"
+  }
 }
