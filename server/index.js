@@ -20,8 +20,9 @@ app.get("/users/:id", (req, res) => {
 const server = http.createServer(app);
 
 const io = new Server(server, {
-    cors: {
-        origin: "http://localhost:3000",
+    cors:
+    {
+        origin: "https://main.d2bv64wdy9v05.amplifyapp.com/",
         methods: ["GET", "POST"]
     }
 })
