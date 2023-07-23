@@ -22,7 +22,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
     cors:
     {
-        origin: "https://main.d2bv64wdy9v05.amplifyapp.com/",
+        origin: process.env.CLIENT_URL,
         methods: ["GET", "POST"]
     }
 })
